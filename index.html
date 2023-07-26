@@ -34,8 +34,7 @@
     <header>
 
         <!-- ^nav bar section -->
-
-        <nav class="bg-[#F85559] max-w-screen-xl mx-auto my-5 py-2 rounded-full px-10">
+        <nav class="bg-[#F85559] max-w-screen-xl mx-auto my-3 py-1 rounded-full px-10">
 
             <section class="navbar flex items-center justify-between"> <!-- border-2 border-white -->
                 <div class=" text-lg font-bold text-white gap-4">
@@ -52,10 +51,11 @@
 
                 <div class="">
                     <div class="flex justify-end items-center">
-                        <input type="text" placeholder="Search here..." class="input input-bordered rounded-3xl px-14 md:w-auto relative" />
+                        <input type="text" placeholder="Search here..."
+                            class="input input-bordered rounded-3xl px-14 md:w-auto relative" />
                         <i class="fa-solid fa-magnifying-glass relative right-8 "></i>
                     </div>
-                    
+
                 </div>
             </section>
 
@@ -64,6 +64,52 @@
 
 
         </nav>
+
+
+        <!-- ^Banner Slider Section -->
+        <section class="max-w-screen-xl mx-auto my-3 py-1">
+
+
+
+
+            <div class="carousel max-h-[calc(100vh-150px)]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="/images/banner1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/images/banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+        </section>
 
     </header>
 
